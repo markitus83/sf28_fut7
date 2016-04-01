@@ -1,10 +1,11 @@
 {
+    "description": "Project to learn more with Syfmony. This project will be used to build the web site of a f7 team",
     "name": "marc/sf28_fut7",
     "license": "proprietary",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "AppBundle\\": "src/"
         },
         "classmap": [
             "app/AppKernel.php",
